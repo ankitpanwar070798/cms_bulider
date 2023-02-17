@@ -1,0 +1,95 @@
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+}
+.left {
+  width: 15%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.left h1 {
+  text-align: center;
+  border-bottom: 3px solid white;
+  margin-top: 10;
+  font-size: 24px;
+  padding: 20px;
+  font-weight: 900;
+}
+.right {
+  width: 85%;
+  margin: 0px 20px;
+}
+.home-container{
+  font-size:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.data {
+  font-size: 20px;
+  padding: 20px;
+}
+.data:hover {
+  background-color: #f5fbff;
+  color: #931382;
+  font-weight: 500;
+}
+.active-tabs {
+ background-color: #f5fbff;
+  color: #931382;
+  display: flex;
+  font-weight: 500;
+}
+.content {
+  color: #949494;
+  display: none;
+}
+.content h2 {
+  padding-left: 10px;
+  border-bottom: 1.5px solid white;
+}
+.active-content {
+  display: block;
+}
+.title{
+  margin-top:20px;
+}
+.title h1{
+  text-align: center;
+}
+label {
+  font-weight: 500;
+  font-size: 24px;
+  color: black;
+  margin-right: 10px;
+}
+input{
+  width: 50%;
+  height: 40px;
+  border: 2px solid rgb(113, 113, 113);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+button{
+  width: 20% ;
+  height: 50px;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 10px;
+  border: 3px solid rgb(138, 138, 138);
+  font-size: 18px;
+  margin-right: 10px;
+}
+.close-btn{
+  width: 5%;
+  background-color:transparent;
+}
+select{
+  width: 20%;
+  height: 35px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
